@@ -102,7 +102,7 @@
                     if (!isMediaContent(item)) return true;
                     if (!item || !item.original_language) return true;
                     var lang = item.original_language.toLowerCase();
-                    var asianLangs = ['ja', 'ko', 'zh', 'th', 'vi', 'hi', 'ta', 'te', 'ml', 'kn', 'bn', 'ur', 'pa', 'gu', 'mr', 'ne', 'si', 'my', 'km', 'lo', 'mn', 'ka', 'hy', 'az', 'tr', 'kk', 'ky', 'tg', 'tk', 'uz'];
+                    var asianLangs = ['ja', 'ko', 'zh', 'th', 'vi', 'hi', 'ta', 'te', 'ml', 'kn', 'bn', 'ur', 'pa', 'gu', 'mr', 'ne', 'si', 'my', 'km', 'lo', 'mn', 'ka', 'hy', 'az', 'tr', 'br', 'in', 'id', 'ph', 'th', 'vn', 'kk', 'ky', 'tg', 'tk', 'uz'];
                     return asianLangs.indexOf(lang) === -1;
                 });
             },
